@@ -7,8 +7,9 @@ void main()
 int gd=DETECT,gm;
 int i=-300,j=0;
 initgraph(&gd,&gm,"c:\\turboc3\\bgi");
-//setbkcolor(9);
 
+ //setbkcolor(9);
+ 
 while(1)
 {
 setcolor(4);
@@ -59,7 +60,8 @@ line(145+i,380,160+i,325);
 line(110+i,325,160+i,325);
 line(110+i,325,145+i,380);
 line(135+i,315,110+i ,325);
-line(145+i,380,165+i,385);//leg//
+line(145+i,380,165+i,385);
+ //leg
 line(165+i,385,180+i,325);
 line(165+i,385,230+i,325);
 line(230+i,325,180+i,325);
@@ -129,8 +131,6 @@ arc(119,30,0,180,5);
 arc(119,30,0,180,6);
 ellipse(110,40,180,0,12,8);
 ellipse(110,40,180,0,12,9);
-
-
 
 setcolor(14);
 circle(160,35,20);
