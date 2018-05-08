@@ -34,6 +34,7 @@ floodfill(8,210,4);
 setfillstyle(7,8);
 arc(80+i,375,0,360,25);
 
+ 
 setcolor(8);
 arc(80+i,375,0-j,100-j,26);
 arc(80+i,375,120-j,200-j,26);
