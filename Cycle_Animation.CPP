@@ -8,6 +8,7 @@ int i=-300,j=0;
 initgraph(&gd,&gm,"c:\\turboc3\\bgi");
 
  //setbkcolor(9);
+ //my fav
 
 while(1)
 {
